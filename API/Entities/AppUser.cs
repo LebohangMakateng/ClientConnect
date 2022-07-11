@@ -6,6 +6,7 @@ namespace API.Entities
     public class AppUser: IdentityUser<int>
     {
         public string City { get; set; }
+        public string Role { get; set; }
         public string Country { get; set; }
          public string Biography { get; set; }
         public string Profession { get; set; }
